@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="keyboardHidden|orientation|screenSize"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="221dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="252dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/ipText"
+            android:layout_width="209dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:hint="IP"
+            android:inputType="text"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/portText"
+            android:layout_width="209dp"
+            android:layout_height="44dp"
+            android:width="200dp"
+            android:height="50dp"
+            android:ems="10"
+            android:hint="Port"
+            android:inputType="number"
+            android:minWidth="50dp"
+            android:minHeight="48dp"
+            android:text="51" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Név"
+            android:inputType="text"
+            android:text="AndroidKliens" />
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="Csatlakozás" />
+
+        <Button
+            android:id="@+id/penButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toll" />
+
+        <TextView
+            android:id="@+id/textRot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

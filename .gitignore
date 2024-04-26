@@ -1,0 +1,15 @@
+LogoMote/*.iml
+LogoMote/.gradle
+LogoMote/local.properties
+LogoMote/.idea/caches
+LogoMote/.idea/libraries
+LogoMote/.idea/modules.xml
+LogoMote/.idea/workspace.xml
+LogoMote/.idea/navEditor.xml
+LogoMote/.idea/assetWizardSettings.xml
+LogoMote/.DS_Store
+LogoMote/build
+LogoMote/captures
+LogoMote/.externalNativeBuild
+LogoMote/.cxx
+LogoMote/local.properties
