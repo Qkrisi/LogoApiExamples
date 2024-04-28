@@ -8,7 +8,7 @@ A mintaprogramok használatához töltsük be a [LogoApi.IMP](https://github.com
 
 Teknőc irányítása terminálból (Python)
 
-`logocmd.py` fájlt elindítva a program csatlakozik a (helyi gépen futó) szerverhez, majd várja a parancsokat (`> `)
+`logocmd.py` fájlt elindítva a program csatlakozik a (helyi gépen futó) szerverhez, majd várja a parancsokat (`$ `)
 
 Enter gomb lenyomásával tudunk egy parancsot elküldeni (pl. `elõre 50`) a teknőcnek.
 

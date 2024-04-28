@@ -7,7 +7,7 @@ client = py_logo.LogoClient("Konzol", "localhost", 51, on_message = on_msg)
 client.connect()
 
 while client.connected:
-	cmd = input("? ")
+	cmd = input("$ ")
 	if cmd == "_stop":
 		client.disconnect()
 		continue
