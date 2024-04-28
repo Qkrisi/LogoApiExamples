@@ -13,3 +13,4 @@ LogoMote/captures
 LogoMote/.externalNativeBuild
 LogoMote/.cxx
 LogoMote/local.properties
+LogoCmd/__pycache__
