@@ -1,5 +1,7 @@
 # [LogoApi](https://github.com/qkrisi/LogoApi) mintaprogramok
 
+The English version of this description can be found [here](https://github.com/Qkrisi/LogoApiExamples/blob/master/README_English.md).
+
 A mintaprogramok használatához töltsük be a [LogoApi.IMP](https://github.com/Qkrisi/LogoApiExamples/blob/master/LogoApi.IMP) fájlt Imagine Logo-ban!
 
 `csatlakoztat` parancssal indíthatjuk el a szervert, `bont` parancssal állíthatjuk le.

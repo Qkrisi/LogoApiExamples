@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 if(IsConnected())
                 {
                     Disconnect();
-                    connectBtn.setText("Csatlakozás");
+                    connectBtn.setText("Connect");
                 }
                 else
                 {
@@ -71,12 +71,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     boolean success = !Objects.equals(name, "");
                     if(success)
                     {
-                        connectBtn.setText("Kapcsolat bontása");
+                        connectBtn.setText("Disconnect");
                         binding.nameText.setText(name);
                     }
                     else
                     {
-                        Alert("Sikertelen kapcsolat");
+                        Alert("Connection failed");
                     }
                 }
             }

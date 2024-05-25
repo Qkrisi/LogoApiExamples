@@ -46,21 +46,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Név"
+            android:hint="Name"
             android:inputType="text"
-            android:text="AndroidKliens" />
+            android:text="AndroidClient" />
 
         <Button
             android:id="@+id/connectButton"
             android:layout_width="match_parent"
             android:layout_height="73dp"
-            android:text="Csatlakozás" />
+            android:text="Connect" />
 
         <Button
             android:id="@+id/penButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Toll" />
+            android:text="Pen" />
 
         <TextView
             android:id="@+id/textRot"
